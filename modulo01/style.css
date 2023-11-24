@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* cor de fundo */
+    background-color: #f0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,13 +11,12 @@ body {
   
   h1 {
     text-align: center;
-    color: #4a148c; /* roxo */
-  }
+    color: #4a148c;
   form {
     width: 400px;
     padding: 20px;
     border-radius: 8px;
-    background-color: #2196F3; /* azul */
+    background-color: #2196F3;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
   }
   
@@ -29,7 +28,7 @@ body {
   }
   
   form label {
-    color: white; /* texto branco */
+    color: white; 
   }
   
   form input,
@@ -45,12 +44,12 @@ body {
     padding: 10px;
     border-radius: 4px;
     border: none;
-    background-color: #4a148c; /* roxo */
-    color: white; /* texto branco */
+    background-color: #4a148c; 
+    color: white; 
     cursor: pointer;
   }
   
   form button:hover {
-    background-color: #311b92; /* roxo mais escuro */
+    background-color: #311b92; 
   }
  
