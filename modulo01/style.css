@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* cor de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4a148c; /* roxo */
+  }
+  form {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #2196F3; /* azul */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  }
+  
+  form label,
+  form input,
+  form select {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    color: white; /* texto branco */
+  }
+  
+  form input,
+  form select {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #4a148c; /* roxo */
+    color: white; /* texto branco */
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #311b92; /* roxo mais escuro */
+  }
+ 
